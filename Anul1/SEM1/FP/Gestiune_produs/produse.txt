@@ -1,0 +1,13 @@
+1,Banane,21
+2,Ciocolata,432
+3,Castane,33
+4,Lamai,59
+5,Portocale,24
+6,Rosii,25
+7,Castraveti,79
+8,Clementine,320
+9,Mascarpone,244
+11,Masa,12
+121,Goblin,324
+32,Koala,3213
+213,Masuratoare,21

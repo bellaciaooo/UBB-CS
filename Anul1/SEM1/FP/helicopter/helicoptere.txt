@@ -1,0 +1,10 @@
+12,Flamingo,agricultura vacanta medical,2014
+2,Apache,militar medical,1995
+45,Stark Rebound,militar livrare,2019
+1,Abecedar,vacanta militar,2007
+3,Sageata,militar,2003
+6,Marmota,vacanta medical,2012
+23,Norbit,agricultura,1995
+14,Hope,vacanta,2007
+37,Ho Ho Ho,Craciun,1876
+21,Secera,agricultura vacanta,2021
