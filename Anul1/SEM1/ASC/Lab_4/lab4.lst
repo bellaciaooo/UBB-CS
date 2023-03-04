@@ -1,0 +1,48 @@
+     1                                  bits 32 
+     2                                  global start        
+     3                                  extern exit               
+     4                                  import exit msvcrt.dll    
+     5                                  segment data use32 class=data
+     6 00000000 5777                        a dw 0111011101010111b
+     7 00000002 BE9B                        b dw 1001101110111110b
+     8 00000004 00000000                    c dd 0
+     9                                  
+    10                                  segment code use32 class=code
+    11                                      start:
+    12                                          ;Se dau cuvintele A si B. Se cere dublucuvantul C:
+    13                                          ;   bitii 0-3 ai lui C coincid cu bitii 5-8 ai lui B
+    14                                          ;   bitii 4-8 ai lui C coincid cu bitii 0-4 ai lui A
+    15                                          ;   bitii 9-15 ai lui C coincid cu bitii 6-12 ai lui A
+    16                                          ;   bitii 16-31 ai lui C coincid cu bitii lui B
+    17                                          
+    18                                          ; bitii 0-3 ai lui C coincid cu bitii 5-8 ai lui B
+    19 00000000 B800000000                      mov eax, 0 ; golim tot ce e in eax 
+    20 00000005 BB00000000                      mov ebx, 0 ; in registrul ebx vom calcula rezultatul
+    21 0000000A 66A1[02000000]                  mov ax, [b] ; ax = b
+    22 00000010 66258007                        and ax, 0000011110000000b ; izolam bitii 5-8 ai lui B
+    23 00000014 C1C015                          rol eax, 21 ; mutam bitii pe pozitiile 0-3
+    24 00000017 09C3                            or ebx, eax ; punem bitii in rezultat
+    25                                          
+    26                                          ; bitii 4-8 ai lui C coincid cu bitii 0-4 ai lui A
+    27 00000019 B800000000                      mov eax, 0
+    28 0000001E 66A1[00000000]                  mov ax, [a] ;izolam bitii 0-4 ai lui A
+    29 00000024 662500F8                        and ax, 1111100000000000b
+    30 00000028 C1C00C                          rol eax, 12 ; mutam bitii pe pozitiile 4-8 in eax
+    31 0000002B 09C3                            or ebx, eax ; punem bitii in rezultat
+    32                                          
+    33                                          ; bitii 9-15 ai lui C coincid cu bitii 6-12 ai lui A
+    34 0000002D B800000000                      mov eax, 0
+    35 00000032 66A1[00000000]                  mov ax, [a]
+    36 00000038 6625F803                        and ax, 0000001111111000b
+    37 0000003C C1C00D                          rol eax, 13 ; mutam bitii pe pozitiile 9-15 in eax
+    38 0000003F 09C3                            or ebx, eax ; punem bitii in rezultat
+    39                                          
+    40                                          ; bitii 16-31 ai lui C coincid cu bitii lui B
+    41 00000041 B800000000                      mov eax, 0
+    42 00000046 66A1[02000000]                  mov ax, [b]
+    43 0000004C 09C3                            or ebx, eax
+    44                                          
+    45 0000004E 891D[04000000]                  mov [c], ebx
+    46                                          
+    47 00000054 6A00                            push    dword 0       
+    48 00000056 FF15[00000000]                  call    [exit]       

@@ -1,0 +1,48 @@
+     1                                  bits 32 
+     2                                  global start      
+     3                                    
+     4                                  extern exit               
+     5                                  import exit msvcrt.dll
+     6                                  
+     7                                  segment data use32 class=data
+     8 00000000 785634124D3C2B1A76-         s dd 12345678h, 1A2B3C4Dh, 0FE98DC76h 
+     8 00000009 DC98FE             
+     9                                      len equ ($-s)/4
+    10 0000000C 00<rept>                    d times len db 0
+    11 0000000F 0A                          zece db 10
+    12                                  
+    13                                  ;Se da un sir de dublucuvinte. Sa se obtina sirul format din octetii superiori ai cuvintelor inferioare din elementele sirului de dublucuvinte, care sunt multiplii de 10.
+    14                                  
+    15                                  segment code use32 class=code
+    16                                      start:
+    17 00000000 BE[00000000]                    mov esi, s
+    18 00000005 FC                              cld
+    19 00000006 B903000000                      mov ecx, len
+    20 0000000B E324                            jecxz final
+    21 0000000D BF00000000                      mov edi, 0
+    22                                      repeta: 
+    23 00000012 AC                              lodsb
+    24 00000013 AC                              lodsb
+    25 00000014 83C602                          add esi, 2
+    26 00000017 88C3                            mov bl, al
+    27 00000019 B400                            mov ah, 0
+    28                                          ;mov dl, 10
+    29                                          ;div dl
+    30                                          
+    31 0000001B F635[0F000000]                  div byte[zece]
+    32 00000021 80FC00                          cmp ah, 0
+    33                                          
+    34 00000024 7402                            jz multiplu10
+    35 00000026 EB07                            jmp mai_departe
+    36                                         
+    37                                      multiplu10:
+    38 00000028 889F[0C000000]                  mov [d+edi], bl 
+    39 0000002E 47                              inc edi
+    40                                  
+    41                                      mai_departe:
+    42                                      
+    43 0000002F E2E1                        loop repeta
+    44                                      
+    45                                      final:
+    46 00000031 6A00                            push dword 0        
+    47 00000033 FF15[00000000]                  call [exit]         

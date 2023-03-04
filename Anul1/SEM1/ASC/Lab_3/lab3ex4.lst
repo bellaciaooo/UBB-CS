@@ -1,0 +1,44 @@
+     1                                  bits 32 
+     2                                  global start        
+     3                                  extern exit               
+     4                                  import exit msvcrt.dll    
+     5                                  
+     6                                  segment data use32 class=data
+     7 00000000 09000000                    a dd 9
+     8 00000004 01                          b db 1
+     9 00000005 01                          c db 1
+    10 00000006 FCFFFFFFFFFFFFFF            x dq -4
+    11                                  
+    12                                  segment code use32 class=code
+    13                                      start:
+    14                                          ; a-doubleword b,c-byte x-qword
+    15                                          ;(a+b)/(2-b*b+b/c)-x Interpretarea cu semn
+    16                                          ;(a+b)
+    17 00000000 8B1D[00000000]                  mov ebx, [a] ; EBX = a
+    18 00000006 A0[04000000]                    mov al, [b] ; AL = b
+    19 0000000B 6698                            cbw ; AX = b
+    20 0000000D 98                              cwde ; EAX = b
+    21 0000000E 01C3                            add ebx, eax ; EBX = a + b
+    22                                          ;(2-b*b+b/c)
+    23 00000010 A0[04000000]                    mov al, [b]   
+    24 00000015 F62D[04000000]                  imul byte [b] ; AX = b * b
+    25 0000001B BA02000000                      mov edx, 2
+    26 00000020 6629C2                          sub dx, ax ; DX = 2 - b * b
+    27 00000023 A0[04000000]                    mov al, [b] ; AL = b
+    28 00000028 6698                            cbw ; AX = b
+    29 0000002A F63D[05000000]                  idiv byte [c] ; AL= b / c 
+    30 00000030 B400                            mov ah, 0 ; scapam de restul din AH in caz ca e
+    31 00000032 6601C2                          add dx, ax ; DX= 2 - b * b + b / c
+    32                                          ;(a+b)/(2-b*b+b/c)
+    33 00000035 89D8                            mov eax, ebx ; EAX = a + b
+    34 00000037 89D1                            mov ecx, edx ; ECX = 2 - b * b + b / c
+    35 00000039 BA00000000                      mov edx, 0
+    36 0000003E F7F9                            idiv ecx ;EAX =(a+b)/(2-b*b+b/c)
+    37                                          ;(a+b)/(2-b*b+b/c)-x
+    38 00000040 99                              cdq ; EDX:EAX = (a+b)/(2-b*b+b/c)
+    39 00000041 8B1D[06000000]                  mov ebx, dword[x+0]
+    40 00000047 8B0D[0A000000]                  mov ecx, dword[x+4]
+    41 0000004D 29D8                            sub eax, ebx
+    42 0000004F 19CA                            sbb edx, ecx
+    43 00000051 6A00                            push    dword 0      
+    44 00000053 FF15[00000000]                  call    [exit]   
