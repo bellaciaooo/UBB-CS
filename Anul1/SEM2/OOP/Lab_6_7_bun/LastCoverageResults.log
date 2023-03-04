@@ -1,0 +1,21 @@
+[2022-04-29 16:35:35] [info] Start Program:
+Path:"D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe"
+Arguments:
+Working directory: "D:\OOP\Lab_6_7_bun\"
+Modules: Selected: D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe Excluded: 
+Sources: Selected: D:\OOP\Lab_6_7_bun Excluded: main.cpp consola.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\LENOVO\AppData\Local\Temp\mbsfwahc.e41 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-29 16:35:35] [info] Module: D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe is selected because it matches selected pattern: D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe
+[2022-04-29 16:35:37] [info] ----------------------------------------------------
+[2022-04-29 16:35:37] [info] Coverage binary generated in file: C:\Users\LENOVO\AppData\Local\Temp\mbsfwahc.e41
+[2022-04-29 16:35:37] [info] ----------------------------------------------------

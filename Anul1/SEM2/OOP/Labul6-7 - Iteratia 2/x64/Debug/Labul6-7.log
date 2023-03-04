@@ -1,0 +1,117 @@
+﻿  consola.cpp
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,32): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const vector<Film>' (or there is no acceptable conversion)
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(25,11): message : could be 'Type &vector<Type>::operator [](int)'
+          with
+          [
+              Type=Film
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,32): message : while trying to match the argument list '(const vector<Film>, int)'
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,68): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const vector<Film>' (or there is no acceptable conversion)
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(25,11): message : could be 'Type &vector<Type>::operator [](int)'
+          with
+          [
+              Type=Film
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,68): message : while trying to match the argument list '(const vector<Film>, int)'
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,110): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const vector<Film>' (or there is no acceptable conversion)
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(25,11): message : could be 'Type &vector<Type>::operator [](int)'
+          with
+          [
+              Type=Film
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,110): message : while trying to match the argument list '(const vector<Film>, int)'
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,163): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const vector<Film>' (or there is no acceptable conversion)
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(25,11): message : could be 'Type &vector<Type>::operator [](int)'
+          with
+          [
+              Type=Film
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\consola.cpp(19,163): message : while trying to match the argument list '(const vector<Film>, int)'
+  repo.cpp
+D:\OOP\Labul6-7 - Iteratia 2\repo.cpp(38,9): error C2039: 'at': is not a member of 'vector<Film>'
+D:\OOP\Labul6-7 - Iteratia 2\repo.h(14): message : see declaration of 'vector<Film>'
+D:\OOP\Labul6-7 - Iteratia 2\repo.cpp(38,21): error C2039: 'at': is not a member of 'vector<Film>'
+D:\OOP\Labul6-7 - Iteratia 2\repo.h(14): message : see declaration of 'vector<Film>'
+D:\OOP\Labul6-7 - Iteratia 2\repo.cpp(43,6): error C2039: 'pop_back': is not a member of 'vector<Film>'
+D:\OOP\Labul6-7 - Iteratia 2\repo.h(14): message : see declaration of 'vector<Film>'
+D:\OOP\Labul6-7 - Iteratia 2\repo.cpp(52,14): error C3861: 'find_if': identifier not found
+D:\OOP\Labul6-7 - Iteratia 2\repo.cpp(53,11): error C2677: binary '!=': no global operator found which takes type 'vector<Film>::Iterator' (or there is no acceptable conversion)
+  service.cpp
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(15,26): error C2662: 'vector<Film>::Iterator vector<Film>::begin(void)': cannot convert 'this' pointer from 'const vector<Film>' to 'vector<Film> &'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(15,26): message : Conversion loses qualifiers
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(62,14): message : see declaration of 'vector<Film>::begin'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(15,26): error C2662: 'vector<Film>::Iterator vector<Film>::end(void)': cannot convert 'this' pointer from 'const vector<Film>' to 'vector<Film> &'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(15,26): message : Conversion loses qualifiers
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(67,14): message : see declaration of 'vector<Film>::end'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(16,3): error C3536: '<begin>$L0': cannot be used before it is initialized
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(16,3): error C3536: '<end>$L0': cannot be used before it is initialized
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(15,31): error C2100: illegal indirection
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(17,12): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const int' (or there is no acceptable conversion)
+D:\OOP\Labul6-7 - Iteratia 2\Film.h(19,8): message : could be 'Film &Film::operator =(const Film &)'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(17,12): message : while trying to match the argument list '(Film, const int)'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(26,26): error C2662: 'vector<Film>::Iterator vector<Film>::begin(void)': cannot convert 'this' pointer from 'const vector<Film>' to 'vector<Film> &'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(26,26): message : Conversion loses qualifiers
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(62,14): message : see declaration of 'vector<Film>::begin'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(26,26): error C2662: 'vector<Film>::Iterator vector<Film>::end(void)': cannot convert 'this' pointer from 'const vector<Film>' to 'vector<Film> &'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(26,26): message : Conversion loses qualifiers
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(67,14): message : see declaration of 'vector<Film>::end'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(27,3): error C3536: '<begin>$L0': cannot be used before it is initialized
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(27,3): error C3536: '<end>$L0': cannot be used before it is initialized
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(26,31): error C2100: illegal indirection
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(28,13): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const int' (or there is no acceptable conversion)
+D:\OOP\Labul6-7 - Iteratia 2\Film.h(19,8): message : could be 'Film &Film::operator =(const Film &)'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(28,13): message : while trying to match the argument list '(Film, const int)'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,40): error C2662: 'vector<Film>::Iterator vector<Film>::begin(void)': cannot convert 'this' pointer from 'const vector<Film>' to 'vector<Film> &'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,35): message : Conversion loses qualifiers
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(62,14): message : see declaration of 'vector<Film>::begin'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,40): error C2662: 'vector<Film>::Iterator vector<Film>::end(void)': cannot convert 'this' pointer from 'const vector<Film>' to 'vector<Film> &'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,35): message : Conversion loses qualifiers
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(67,14): message : see declaration of 'vector<Film>::end'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,40): error C3536: '<begin>$L0': cannot be used before it is initialized
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,40): error C3536: '<end>$L0': cannot be used before it is initialized
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(39,38): error C2100: illegal indirection
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(40,6): error C2664: '_Ret std::_Func_class<_Ret,const Film &>::operator ()(const Film &) const': cannot convert argument 1 from 'const int' to 'const Film &'
+          with
+          [
+              _Ret=bool
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(40,6): message : Reason: cannot convert from 'const int' to 'const Film'
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(40,6): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\functional(875,10): message : see declaration of 'std::_Func_class<_Ret,const Film &>::operator ()'
+          with
+          [
+              _Ret=bool
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(41,22): error C2664: 'void vector<Film>::push_back(Type)': cannot convert argument 1 from 'const int' to 'Type'
+          with
+          [
+              Type=Film
+          ]
+D:\OOP\Labul6-7 - Iteratia 2\service.cpp(41,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\OOP\Labul6-7 - Iteratia 2\vector.h(33,10): message : see declaration of 'vector<Film>::push_back'
+  validator.cpp
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(11,8): error C2143: syntax error: missing ';' before '<'
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(11,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(11,21): error C2238: unexpected token(s) preceding ';'
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(13,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(13,32): error C2143: syntax error: missing ',' before '<'
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(13,57): error C2065: 'errors': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(13,51): error C2614: 'ValidateException': illegal member initialization: 'msgs' is not a base or member
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(7,2): error C2065: 'vector': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(7,9): error C2275: 'std::string': illegal use of this type as an expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4927): message : see declaration of 'std::string'
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(7,16): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(8,31): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(9,31): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(10,29): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(11,40): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(12,6): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(13,27): error C2065: 'msgs': undeclared identifier
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(18,28): error C2039: 'msgs': is not a member of 'ValidateException'
+D:\OOP\Labul6-7 - Iteratia 2\validator.h(10): message : see declaration of 'ValidateException'
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(18,2): error C2530: 'msg': references must be initialized
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(18,2): error C3531: 'msg': a symbol whose type contains 'auto' must have an initializer
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(18,23): error C2143: syntax error: missing ';' before ':'
+D:\OOP\Labul6-7 - Iteratia 2\validator.cpp(18,32): error C2143: syntax error: missing ';' before ')'
+  Running Code Analysis for C/C++...
+  Generating Code...

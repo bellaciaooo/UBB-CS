@@ -1,0 +1,4 @@
+Titlu , Gen , Anul aparitiei , Actor principal
+Scooby-Doo,animatie,1998,Fred
+Turistul,comedie,2020,Jack
+Emilia,romantic,2021,Ema

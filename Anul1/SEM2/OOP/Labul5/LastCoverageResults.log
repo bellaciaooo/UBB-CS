@@ -1,0 +1,21 @@
+[2022-03-26 13:46:28] [info] Start Program:
+Path:"D:\OOP\Labul5\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe"
+Arguments:
+Working directory: "D:\OOP\Labul5"
+Modules: Selected: D:\OOP\Labul5\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe Excluded: 
+Sources: Selected: D:\OOP\Labul5\Administrator_imobil_Lab_2_4\Administrator_imobil_Lab_2_4 Excluded: main.c consola.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\LENOVO\AppData\Local\Temp\rodxajsy.20l 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-26 13:46:28] [info] Module: D:\OOP\Labul5\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe is selected because it matches selected pattern: D:\OOP\Labul5\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe
+[2022-03-26 13:46:30] [info] ----------------------------------------------------
+[2022-03-26 13:46:30] [info] Coverage binary generated in file: C:\Users\LENOVO\AppData\Local\Temp\rodxajsy.20l
+[2022-03-26 13:46:30] [info] ----------------------------------------------------

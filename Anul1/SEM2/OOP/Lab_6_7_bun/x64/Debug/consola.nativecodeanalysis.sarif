@@ -1,0 +1,356 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->elemente'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 9,
+                  "endLine": 113,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::{ctor}",
+                  "decoratedName": "??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<v.size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<v.size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::=' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.31.31103\\include\\xstring:3038)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->elemente[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF687F89CC0 -il C:\\Users\\LENOVO\\AppData\\Local\\Temp\\_CL_a5fe361aast -typedil -f consola.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\consola.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory D:\\OOP\\Lab_6_7_bun -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\OOP\\Lab_6_7_bun\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\OOP\\Lab_6_7_bun\\Include\\um -I D:\\OOP\\Lab_6_7_bun\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/OOP/Lab_6_7_bun/vector.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4fe6ad91578a2a7024e2e379fb4d6249dbeddd2b77b3edb516156b114716b5fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/teste.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "67cc211096824c98f88ff8639c58d0c51043627798ac7114f62e4e38cc3d1e86"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/teste.h"
+          },
+          "hashes": {
+            "sha-256": "d01000adcd01fe302637b92e94cc4561fc2e5e9a2edd039affdda3d96e6e8975"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/film.h"
+          },
+          "hashes": {
+            "sha-256": "92ccc12479a9ac8d7b39fc6fbca372e61dd76c6f5cb74df01b24c1f00aa4ea1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/repo.h"
+          },
+          "hashes": {
+            "sha-256": "1b78e1cfe04cc732eb195411e514962a627d47b602880b4ccb940e8949061f54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/errors.h"
+          },
+          "hashes": {
+            "sha-256": "8aa2a4fb90bb4b84de25bb5f048f28a66800415256b81ff3e37475098823f59d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/validator.h"
+          },
+          "hashes": {
+            "sha-256": "1d201769e4d40f42522815004a1632e9d5b69ac6cc2e1988cde35aed1c68c660"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/service.h"
+          },
+          "hashes": {
+            "sha-256": "5a8b82e4707020265589fcbc781300a6ae797fadaf12b23fa13305c20c0384fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/service.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d9d9f7e7cae155ab828fc3d5d21ce1ee1b206998ad202b2b4257bbac06e7bce6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/repo.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "ba946e22e97b60c016cf313820378f909c83066b0d3af4efcce10dd7833231a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "55910cd9fc3e382b75ad94eae3bf7041063059e3c1fa5380dc2e9f2d8c6e4fd0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/consola.h"
+          },
+          "hashes": {
+            "sha-256": "da662a237bf54c01c2ba4f105429077948d7408553f289475ea09e6413f49169"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/lab_6_7_bun/consola.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "bfa5861a25d5b6df46e00841dab122df53fcb6f158ec6f64094a8e9183b7177c"
+          }
+        }
+      ]
+    }
+  ]
+}

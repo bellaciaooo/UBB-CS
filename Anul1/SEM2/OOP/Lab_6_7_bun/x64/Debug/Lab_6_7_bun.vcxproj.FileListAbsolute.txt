@@ -1,0 +1,3 @@
+D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe
+D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe.lastcodeanalysissucceeded
+D:\OOP\Lab_6_7_bun\x64\Debug\NativeCodeAnalysis.read.1.tlog

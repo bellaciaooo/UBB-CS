@@ -1,0 +1,4 @@
+Titlu , Gen , Anul aparitiei , Actor principal
+Spiderman, actiune, 2018, Peter
+Scooby-Doo, animatie, 1998, Fred
+Emilia, romantic, 2021, Ema

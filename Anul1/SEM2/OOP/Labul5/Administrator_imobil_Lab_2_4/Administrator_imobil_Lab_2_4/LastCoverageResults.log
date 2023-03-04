@@ -1,0 +1,21 @@
+[2022-03-19 16:43:22] [info] Start Program:
+Path:"C:\Users\Denode\source\repos\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe"
+Arguments:
+Working directory: "C:\Users\Denode\source\repos\Administrator_imobil_Lab_2_4\Administrator_imobil_Lab_2_4\"
+Modules: Selected: C:\Users\Denode\source\repos\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe Excluded: 
+Sources: Selected: C:\Users\Denode\source\repos\Administrator_imobil_Lab_2_4\Administrator_imobil_Lab_2_4 Excluded: main.c consola.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Denode\AppData\Local\Temp\auotnt1j.mmm 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-19 16:43:22] [info] Module: C:\Users\Denode\source\repos\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe is selected because it matches selected pattern: C:\Users\Denode\source\repos\Administrator_imobil_Lab_2_4\x64\Debug\Administrator_imobil_Lab_2_4.exe
+[2022-03-19 16:43:23] [info] ----------------------------------------------------
+[2022-03-19 16:43:23] [info] Coverage binary generated in file: C:\Users\Denode\AppData\Local\Temp\auotnt1j.mmm
+[2022-03-19 16:43:23] [info] ----------------------------------------------------

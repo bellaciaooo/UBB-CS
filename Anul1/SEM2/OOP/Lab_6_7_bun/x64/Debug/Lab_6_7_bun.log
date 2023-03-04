@@ -1,0 +1,7 @@
+﻿  teste.cpp
+  Lab_6_7_bun.vcxproj -> D:\OOP\Lab_6_7_bun\x64\Debug\Lab_6_7_bun.exe
+D:\OOP\Lab_6_7_bun\vector.h(113): warning C6385: Reading invalid data from 'this->elemente'.
+D:\OOP\Lab_6_7_bun\Film.cpp(3): warning C26495: Variable 'Film::anul_aparitiei' is uninitialized. Always initialize a member variable (type.6).
+D:\OOP\Lab_6_7_bun\vector.h(90): warning C6385: Reading invalid data from 'temp'.
+D:\OOP\Lab_6_7_bun\vector.h(86): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+D:\OOP\Lab_6_7_bun\vector.h(139): warning C6385: Reading invalid data from 'this->elemente'.

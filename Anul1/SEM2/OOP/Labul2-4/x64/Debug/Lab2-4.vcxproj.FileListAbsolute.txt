@@ -1,0 +1,3 @@
+D:\OOP\Lab2-4\x64\Debug\Lab2-4.exe
+D:\Bella\Lab2-4\x64\Debug\Lab2-4.exe
+D:\OOP\Labul2-4\x64\Debug\Lab2-4.exe

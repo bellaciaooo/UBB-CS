@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exPolimorfism2", "exPolimorfism2.vcxproj", "{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Debug|x64.ActiveCfg = Debug|x64
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Debug|x64.Build.0 = Debug|x64
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Debug|x86.Build.0 = Debug|Win32
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Release|x64.ActiveCfg = Release|x64
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Release|x64.Build.0 = Release|x64
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Release|x86.ActiveCfg = Release|Win32
+		{7A2ADEAD-7BA5-4C3F-B5FC-271897802515}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1597CFC-0547-40DA-9227-9FC3DB78C90A}
+	EndGlobalSection
+EndGlobal

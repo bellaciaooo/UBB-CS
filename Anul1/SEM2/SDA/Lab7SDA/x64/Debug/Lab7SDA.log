@@ -1,0 +1,3 @@
+﻿  Colectie.cpp
+D:\SDA\Lab7SDA\Colectie.h(1,13): warning C4081: expected 'newline'; found ';'
+  Lab7SDA.vcxproj -> D:\SDA\Lab7SDA\x64\Debug\Lab7SDA.exe

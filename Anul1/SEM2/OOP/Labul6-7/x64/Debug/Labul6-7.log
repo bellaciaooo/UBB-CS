@@ -1,0 +1,3 @@
+﻿  main.cpp
+  Labul6-7.vcxproj -> D:\OOP\Labul6-7\x64\Debug\Labul6-7.exe
+D:\OOP\Labul6-7\Film.h(15): warning C26495: Variable 'Film::anul_aparitiei' is uninitialized. Always initialize a member variable (type.6).

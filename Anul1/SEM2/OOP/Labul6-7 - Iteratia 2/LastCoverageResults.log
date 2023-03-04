@@ -1,0 +1,21 @@
+[2022-04-12 19:03:32] [info] Start Program:
+Path:"D:\OOP\Labul6-7\x64\Debug\Labul6-7.exe"
+Arguments:
+Working directory: "D:\OOP\Labul6-7\"
+Modules: Selected: D:\OOP\Labul6-7\x64\Debug\Labul6-7.exe Excluded: 
+Sources: Selected: D:\OOP\Labul6-7 Excluded: main.cpp consola.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\LENOVO\AppData\Local\Temp\fmdnkwb2.tou 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-12 19:03:32] [info] Module: D:\OOP\Labul6-7\x64\Debug\Labul6-7.exe is selected because it matches selected pattern: D:\OOP\Labul6-7\x64\Debug\Labul6-7.exe
+[2022-04-12 19:03:35] [info] ----------------------------------------------------
+[2022-04-12 19:03:35] [info] Coverage binary generated in file: C:\Users\LENOVO\AppData\Local\Temp\fmdnkwb2.tou
+[2022-04-12 19:03:35] [info] ----------------------------------------------------

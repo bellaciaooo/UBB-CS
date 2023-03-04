@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Undo">
+      <UniqueIdentifier>{1cc8a346-2b53-4832-92e0-cb49d6bb13bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Undo">
+      <UniqueIdentifier>{49004223-d3c3-4537-8f3c-da74507323b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repository">
+      <UniqueIdentifier>{79a24396-1b7f-4ff4-96fb-f1917c5dab97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repository">
+      <UniqueIdentifier>{8f7ca7f7-b140-47c3-8d4c-950cb3fd3496}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="consola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Film.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="teste.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiuneUndo.h">
+      <Filter>Header Files\Undo</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoAdauga.h">
+      <Filter>Header Files\Undo</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoSterge.h">
+      <Filter>Header Files\Undo</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoModifica.h">
+      <Filter>Header Files\Undo</Filter>
+    </ClInclude>
+    <ClInclude Include="repo.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="irepo.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="repoFisier.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="repoProbabilitati.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="consola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoAdauga.cpp">
+      <Filter>Source Files\Undo</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoSterge.cpp">
+      <Filter>Source Files\Undo</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoModifica.cpp">
+      <Filter>Source Files\Undo</Filter>
+    </ClCompile>
+    <ClCompile Include="repo.cpp">
+      <Filter>Source Files\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="repoFisier.cpp">
+      <Filter>Source Files\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="repoProbabilitati.cpp">
+      <Filter>Source Files\Repository</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

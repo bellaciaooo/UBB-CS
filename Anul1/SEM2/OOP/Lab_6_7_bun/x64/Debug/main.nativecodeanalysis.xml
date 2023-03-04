@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+      <FILENAME>vector.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'this-&gt;elemente'.</DESCRIPTION>
+    <FUNCTION>vector&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;v.size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;v.size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::=' (declared at c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.31.31103\include\xstring:3038)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OOP\Lab_6_7_bun\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'this-&gt;elemente[1]', (readable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

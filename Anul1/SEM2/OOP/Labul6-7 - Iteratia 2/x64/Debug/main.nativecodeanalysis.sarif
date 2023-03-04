@@ -1,0 +1,312 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->elemente'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 9,
+                  "endLine": 113,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::{ctor}",
+                  "decoratedName": "??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<v.size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<v.size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::=' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.31.31103\\include\\xstring:3038)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->elemente[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6D8769CC0 -il C:\\Users\\LENOVO\\AppData\\Local\\Temp\\_CL_4094baf3ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory D:\\OOP\\Labul6-7 - Iteratia 2 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\OOP\\Labul6-7 - Iteratia 2\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\OOP\\Labul6-7 - Iteratia 2\\Include\\um -I D:\\OOP\\Labul6-7 - Iteratia 2\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/OOP/Labul6-7 - Iteratia 2/vector.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "04bb5cf609465ba267d7845aa173942594558983effd5ec07838453adb3178d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "7daca4bc2f039012709dad3fee868b423dd09739fb814e4b55a8ae441f2274c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/consola.h"
+          },
+          "hashes": {
+            "sha-256": "f4bad172f3b1353a1012528619fe2fa91f4101c148bc01131bac538a2e3d0ab0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/service.h"
+          },
+          "hashes": {
+            "sha-256": "4a9b37cbabc038f41809bcd9eb0f6e2f7dbf566b19045e2f361971e190b5d632"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/film.h"
+          },
+          "hashes": {
+            "sha-256": "33681b3246edb6135de6b1bf54b9f976a26d5b0185e36014c998a20d2ec1f92a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/repo.h"
+          },
+          "hashes": {
+            "sha-256": "11a098119fb19c2fd303f42f5b22eded7c0bd023836cc987647a812ef33c8b1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/errors.h"
+          },
+          "hashes": {
+            "sha-256": "2a61838c70183bddea9a4278d69c615c0b96ee6c129ba4790c8346e9033749ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/validator.h"
+          },
+          "hashes": {
+            "sha-256": "d9eecc6c8d62757a9f9eb1396cf067c75979af5156d441fd2f23db5bd32342ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/oop/labul6-7 - iteratia 2/teste.h"
+          },
+          "hashes": {
+            "sha-256": "d01000adcd01fe302637b92e94cc4561fc2e5e9a2edd039affdda3d96e6e8975"
+          }
+        }
+      ]
+    }
+  ]
+}

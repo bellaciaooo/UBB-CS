@@ -1,0 +1,21 @@
+[2022-03-23 13:27:24] [info] Start Program:
+Path:"D:\OOP\Labul2-4\x64\Debug\Lab2-4.exe"
+Arguments:
+Working directory: "D:\OOP\Labul2-4"
+Modules: Selected: D:\OOP\Labul2-4\x64\Debug\Lab2-4.exe Excluded: 
+Sources: Selected: D:\OOP\Labul2-4 Excluded: UI.c main.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\LENOVO\AppData\Local\Temp\rcia2sqf.cyh 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-23 13:27:24] [info] Module: D:\OOP\Labul2-4\x64\Debug\Lab2-4.exe is selected because it matches selected pattern: D:\OOP\Labul2-4\x64\Debug\Lab2-4.exe
+[2022-03-23 13:27:26] [info] ----------------------------------------------------
+[2022-03-23 13:27:26] [info] Coverage binary generated in file: C:\Users\LENOVO\AppData\Local\Temp\rcia2sqf.cyh
+[2022-03-23 13:27:26] [info] ----------------------------------------------------

@@ -1,0 +1,7 @@
+﻿  App.cpp
+  TestExtins.cpp
+D:\SDA\Lab3SDA\TestExtins.cpp(230,3): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\SDA\Lab3SDA\TestExtins.cpp(239,3): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\SDA\Lab3SDA\TestExtins.cpp(240,3): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  Generating Code...
+  Lab3SDA.vcxproj -> D:\SDA\Lab3SDA\x64\Debug\Lab3SDA.exe

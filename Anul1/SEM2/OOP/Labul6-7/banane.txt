@@ -1,0 +1,6 @@
+Titlu , Gen , Anul aparitiei , Actor principal
+Turistul, comedie, 2020, Jack
+Rose, animatie, 2021, Carla
+Emilia, romantic, 2021, Ema
+Scooby-Doo, animatie, 1998, Fred
+Spiderman, actiune, 2018, Peter
