@@ -1,0 +1,4 @@
+﻿  exer.cpp
+D:\Grafuri\exercitii4\exer.cpp(55,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Grafuri\exercitii4\exer.cpp(94,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  exercitii4.vcxproj -> D:\Grafuri\exercitii4\x64\Debug\exercitii4.exe

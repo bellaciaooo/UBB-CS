@@ -1,0 +1,3 @@
+﻿  labirint.cpp
+D:\Grafuri\Lab2Grafuri(ex5)\Lab2ex5Grafuri\labirint.cpp(71,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Lab2ex5Grafuri.vcxproj -> D:\Grafuri\Lab2Grafuri(ex5)\Lab2ex5Grafuri\x64\Debug\Lab2ex5Grafuri.exe

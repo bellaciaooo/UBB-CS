@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab2Grafuri", "Lab2Grafuri.vcxproj", "{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Debug|x64.ActiveCfg = Debug|x64
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Debug|x64.Build.0 = Debug|x64
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Debug|x86.ActiveCfg = Debug|Win32
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Debug|x86.Build.0 = Debug|Win32
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Release|x64.ActiveCfg = Release|x64
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Release|x64.Build.0 = Release|x64
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Release|x86.ActiveCfg = Release|Win32
+		{830CBCA2-98CE-4DA4-A545-2DE6B3C1A715}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9466C92-0AEA-4BC2-94E0-88AD75CE8570}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿  practic.cpp
+D:\Grafuri\Practic\practic.cpp(6,68): warning C4307: '-': signed integral constant overflow
+  Practic.vcxproj -> D:\Grafuri\Practic\x64\Debug\Practic.exe
